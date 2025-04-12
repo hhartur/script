@@ -9,5 +9,7 @@ local _, response = pcall(function()
 end)
 
 if response and response.status == 200 then
-  print("Natan buti")
+	print("Natan buti")
+else
+	print("Natan MUITO buti")
 end
