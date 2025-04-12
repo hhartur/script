@@ -1,4 +1,6 @@
 print("Hello from github")
+local Http = game:GetService("HttpService")
+
 local url = "http://localhost:3000".."/".. scriptHub.API_KEY
 
 local sucess, response = pcall(function()
